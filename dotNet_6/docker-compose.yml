@@ -1,0 +1,6 @@
+version: "3.9"
+
+services:
+  openjdk11_ubuntu:
+    image: brgilsonsp/dotnet_sdk_6_ubuntu
+    build: .
